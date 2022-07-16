@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+article {
+    border: 4px solid black;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: #f7f7f7;
+}
+
+.free {
+    color: #777; /*  or gray */
+    text-transform: uppercase;
+    font-style: bold;
+}
+.price{
+    font-weight: 800;
+    font-size: 30px;
+}
+a , a:visited{
+    color: black;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: square;
+}
+button {
+    text-transform: uppercase;
+    color: aliceblue;
+    background-color: black;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+
+    color: black;
+    background-color: white;
+}
+
